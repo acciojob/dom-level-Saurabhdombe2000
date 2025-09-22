@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const target = document.getElementByid("level");
+const target = document.getElementById("level");
 let level = 0;
 let current = target;
 
@@ -10,4 +10,4 @@ while (current) {
 }
 
 // show the result
-alert("The level of the elemnt is: " + level);
+alert("The level of the element is: " + level);
